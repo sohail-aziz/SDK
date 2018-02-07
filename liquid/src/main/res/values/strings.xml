@@ -1,0 +1,7 @@
+<resources>
+    <string name="login_title">Liquid Pay</string>
+    <string name="close">Close</string>
+    <string name="error_code_api">API Error</string>
+    <string name="error_code_cancelled">Cancelled</string>
+    <string name="error_message_cancelled">Cancelled by user</string>
+</resources>

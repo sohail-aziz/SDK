@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.domain.sohail.samplelibraryapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <!--LOGIN-->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="login" />
+
+            <Button
+                android:id="@+id/button_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Forgot Password" />
+
+            <Button
+                android:id="@+id/button_change_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Change Password" />
+
+            <!--Registraion-->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Registration" />
+
+            <Button
+                android:id="@+id/button_validate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Validate User Details" />
+
+
+            <Button
+                android:id="@+id/button_send_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send OTP" />
+
+            <Button
+                android:id="@+id/button_submit_registration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Registration " />
+
+            <Button
+                android:id="@+id/button_resend_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resend Email verification" />
+
+            <Button
+                android:id="@+id/button_check_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Email verification" />
+
+
+            <!--CARDS-->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Credit/Debit Cards" />
+
+            <Button
+                android:id="@+id/button_get_card_bin_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="get card bin details" />
+
+            <Button
+                android:id="@+id/button_add_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Card" />
+
+            <Button
+                android:id="@+id/button_check_card_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Card Status" />
+
+            <Button
+                android:id="@+id/button_delete_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Card" />
+
+            <Button
+                android:id="@+id/button_list_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List Cards" />
+
+
+            <!--SVC-->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Store Value Cards" />
+
+            <Button
+                android:id="@+id/button_get_available_stored_value_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Available Stored Value Card" />
+
+            <Button
+                android:id="@+id/button_getsvcDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Required SVC Details" />
+
+            <Button
+                android:id="@+id/button_add_svc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add SVC" />
+
+            <Button
+                android:id="@+id/button_get_added_svc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Added SVC" />
+
+            <!--VIRTUAL ACCOUNT-->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Virtual Account" />
+
+            <Button
+                android:id="@+id/button_get_available_virtual_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Available Virtual Account" />
+
+            <Button
+                android:id="@+id/button_get_required_field_virtual_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Add Virtual Account Required info" />
+
+            <Button
+                android:id="@+id/button_add_virtual_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Virtual Account" />
+
+            <Button
+                android:id="@+id/button_get_added_va"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Added Virtual Account" />
+
+            <Button
+                android:id="@+id/button_delete_va"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Virtual Account" />
+
+            <Button
+                android:id="@+id/button_link_credit_or_debit_card_to_virtual_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Link Credit/Debit Card to Virtual Account" />
+
+            <Button
+                android:id="@+id/button_un_link_credit_or_debit_card_from_virtual_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Un-Link Credit/Debit Card from Virtual Account" />
+
+            <Button
+                android:id="@+id/button_get_list_payment_card_link_to_virtual_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|clip_vertical"
+                android:text="Virtual Account\nGet Link Payment Card List" />
+
+
+            <!--Membership card -->
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Membership Card" />
+
+            <Button
+                android:id="@+id/button_retrieve_payment_list_eligible_membership_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list of eligible membership card for payment" />
+
+            <Button
+                android:id="@+id/button_get_available_membership_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Available Membership Card" />
+
+            <Button
+                android:id="@+id/button_get_required_field_membership_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Add Membership Card required info" />
+
+            <Button
+                android:id="@+id/button_add_membership_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Membership Card" />
+
+            <Button
+                android:id="@+id/button_get_added_membership_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Added Membership Card" />
+
+
+            <!--TOPUP -->
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Topup" />
+
+
+            <Button
+                android:id="@+id/button_getsvcTopupOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get SVC Topup Options" />
+
+            <Button
+                android:id="@+id/button_topup_svc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topup SVC" />
+
+
+            <!--Payment-->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Payment" />
+
+            <Button
+                android:id="@+id/button_create_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Payment" />
+
+            <Button
+                android:id="@+id/button_cancel_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel Payment" />
+
+            <Button
+                android:id="@+id/button_get_payment_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Payment Options" />
+
+            <Button
+                android:id="@+id/button_pay_using_svc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Using SVC" />
+
+            <Button
+                android:id="@+id/button_pay_using_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Using CARD" />
+
+            <Button
+                android:id="@+id/button_pay_using_va"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Using Virtual Account" />
+
+            <Button
+                android:id="@+id/button_get_payment_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get payment status" />
+
+            <Button
+                android:id="@+id/button_retrieve_payment_list_eligible_voucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list of eligible voucher for payment" />
+
+            <Button
+                android:id="@+id/button_add_brand_vouchers_to_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add brand vouchers to wallet" />
+
+            <Button
+                android:id="@+id/button_get_voucher_list_of_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listing of vouchers in wallet" />
+
+            <Button
+                android:id="@+id/button_save_voucher_from_gift_box_to_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collect voucher from Giftbox to wallet" />
+
+            <Button
+                android:id="@+id/button_send_voucher_to_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send Voucher to friend" />
+
+            <Button
+                android:id="@+id/button_get_voucher_gift_box_listing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Voucher GiftBox Listing" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
